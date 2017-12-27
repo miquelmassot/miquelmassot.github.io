@@ -23,7 +23,10 @@ $(document).ready(function(){
     speed: 100,
     cssArrows: false
   });
-  //    $('#myStat2').circliful();
+
+  $('#jsStat').circliful();
+  $('#jsStat1').circliful();
+  $('#jsStat2').circliful();
 
   $('#contact').each(function() {
     var $t = $(this);
