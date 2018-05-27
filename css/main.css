@@ -1579,8 +1579,10 @@ body h2 {
   border: 1px solid #252525;
 }
 .image-header h1 {
-  font-size: 72px;
-  line-height: 53px;
+  font-size: 3.5vw;
+  /*font-size: 72px;*/
+  line-height: 2.8vw;
+  /*line-height: 53px;*/
   color: #ffffff;
 }
 .image-header h1.personal-details-text {
@@ -1930,7 +1932,7 @@ h3 {
   margin-bottom: 8px;
 }
 .l-image-box {
-  min-height: 100vh;
+  min-height: 46vh;
   display: block;
 }
 .l-relative {

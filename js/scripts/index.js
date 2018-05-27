@@ -3,7 +3,7 @@
  */
 $(document).ready(function(){
   window.pageController.manager.intitialize();
-  $('#nav').localScroll(800);
+  // $('#nav').localScroll(800);
 
   //.parallax(xPosition, speedFactor, outerHeight) options:
   //xPosition - Horizontal position of the element
@@ -33,6 +33,8 @@ $(document).ready(function(){
     $t.addClass("parallax-enabled");
     // $t.parallax("0%", -0.5, true);
   });
+
+  $('#personal_details').scrolled();
 
 
 })

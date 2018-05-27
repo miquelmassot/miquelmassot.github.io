@@ -17,7 +17,6 @@
         var ScrollManagerClass = dependencies.ScrollManagerClass;
 
         var pageIds = _.map(this.page, function (pageInstance, pageKey) {
-
             return {
                 page:pageKey,
                 id:pageInstance.getId()
@@ -31,7 +30,6 @@
         function intitialize(){
             this.scrollManager.setUpWaypoints(onScroll.bind(this));
             setUpNavigation.call(this);
-
         }
         function setUpNavigation(){
             this.$nav.superfish();
@@ -41,7 +39,7 @@
             });
 
         }
-        function onScroll(id,page,direction){
+        function onScroll(id, page, direction){
             this.page[page].scrolled(direction);
         }
         return {
